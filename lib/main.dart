@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Center(
-        child: Text("hello"),
+        child: Image.asset('assets/images/flutter-image.jpg'),
       ),
     ),
   );
