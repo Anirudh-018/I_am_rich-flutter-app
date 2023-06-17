@@ -3,9 +3,21 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Image.asset('assets/images/flutter-image.jpg'),
-      ),
+      home:Scaffold(
+        backgroundColor: Colors.black12,
+        appBar: AppBar(
+          title:Center(
+            child: Text('I am Rich'
+            ),
+          ),
+          backgroundColor: Colors.blueAccent,
+        ),
+        body: Center(
+          child: Image(
+            image: AssetImage('assets/images/flutter-image.jpg'),
+          )
+        ),
+      )
     ),
   );
 }
